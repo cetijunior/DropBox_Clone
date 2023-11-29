@@ -29,14 +29,14 @@ function TableWrapper({ skeletonFiles }: { skeletonFiles: FileType[] }) {
     useEffect(() => {
         if (!docs) return;
 
-        const files: FileType = docs.docs.map((doc) => ({
+        const files: FileType[] = docs.docs.map((doc) => ({
             id: doc.id,
             filename: doc.data().filename || doc.id,
-            fullName: doc.data().fullName,
+            fullName: doc.data().fullName || "", // Add default value or handle if it can be undefined
             timestamp: new Date(doc.data().timestamp?.seconds * 1000) || undefined,
-            downloadURL: doc.data().downloadURL,
-            type: doc.data().type,
-            size: doc.data().size,
+            downloadURL: doc.data().downloadURL || "", // Add default value or handle if it can be undefined
+            type: doc.data().type || "", // Add default value or handle if it can be undefined
+            size: doc.data().size || 0, // Add default value or handle if it can be undefined
         }));
 
         setInitialFiles(files);
