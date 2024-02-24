@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Deployment Link: https://drop-box-clone.vercel.app/
 
-## Getting Started
+This is a DropBox Clone that was build following Sonny Sangha's tutorial on youtube, as he states, This project is not affiliated with DropBox, it is only for learning purposes
 
-First, run the development server:
+[Login/Sign In]
+![Screenshot 2024-02-24 170422](https://github.com/cetijunior/DropBox_Clone/assets/78642663/bb33cf8f-0cff-4550-bd5a-76f97f5020c6)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Home]
+![Screenshot 2024-02-24 170456](https://github.com/cetijunior/DropBox_Clone/assets/78642663/a60ae228-3ca8-4bf8-b624-f6ffd8cdd555)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Light Mode/Dark Mode Menu]
+![Screenshot 2024-02-24 170502](https://github.com/cetijunior/DropBox_Clone/assets/78642663/e267a8df-77c9-4eb4-a8d9-410974a001ed)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Drag & Drop]
+![Screenshot 2024-02-24 170519](https://github.com/cetijunior/DropBox_Clone/assets/78642663/7d97505e-fb8f-41a2-a46b-5fb35333ba12)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+[Upload File]
+![Screenshot 2024-02-24 170525](https://github.com/cetijunior/DropBox_Clone/assets/78642663/d4bbfb0d-2ade-4c65-9f59-4f6b26c4659a)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Rename File]
+![Screenshot 2024-02-24 170543](https://github.com/cetijunior/DropBox_Clone/assets/78642663/c4ce2d8d-aa73-4eba-b295-ff934805ab3f)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Delete File]
+![Screenshot 2024-02-24 170610](https://github.com/cetijunior/DropBox_Clone/assets/78642663/4445158c-4f91-4445-869f-7e34ebaba9eb)
